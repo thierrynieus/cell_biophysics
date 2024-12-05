@@ -1,1 +1,4 @@
-
+name: neuron2024
+channels:
+  - defaults
+prefix: /home/tnieus/anaconda3/envs/neuron2024
