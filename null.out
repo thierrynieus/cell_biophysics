@@ -1,0 +1,6 @@
+/home/tnieus/Documents/teaching/AA 2024-2025/Cell biophysics/lessons/github/cell_biophysics
+Mod files: "./Grc_sine.mod" "./leak.mod" "./potassium.mod" "./ramp.mod" "./sodium.mod"
+
+ -> [32mCompiling[0m mod_func.cpp
+ => [32mLINKING[0m shared library ./libnrnmech.so
+Successfully created x86_64/special
