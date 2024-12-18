@@ -614,7 +614,7 @@ static const char* nmodl_file_text =
   "NEURON {\n"
   " 	SUFFIX sodium\n"
   "	USEION na WRITE ina\n"
-  "	RANGE gnabar, gna, minf, hinf, mtau, htau, m, h, ina, Am, v0_Am, k_Am, Bm, v0_Bm, k_Bm, Ah, v0_Ah, k_Ah, Bh, v0_Bh, k_Bh	\n"
+  "	RANGE gnabar, gna, minf, hinf, mtau, htau, m, h, ina, Am, v0_Am, k_Am, Bm, v0_Bm, k_Bm, Ah, v0_Ah, k_Ah, Bh, v0_Bh, k_Bh\n"
   "}\n"
   " \n"
   "INDEPENDENT {t FROM 0 TO 1 WITH 1 (ms)}\n"

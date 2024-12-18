@@ -38,7 +38,7 @@ UNITS {
 NEURON {
  	SUFFIX sodium
 	USEION na WRITE ina
-	RANGE gnabar, gna, minf, hinf, mtau, htau, m, h, ina, Am, v0_Am, k_Am, Bm, v0_Bm, k_Bm, Ah, v0_Ah, k_Ah, Bh, v0_Bh, k_Bh	
+	RANGE gnabar, gna, minf, hinf, mtau, htau, m, h, ina, Am, v0_Am, k_Am, Bm, v0_Bm, k_Bm, Ah, v0_Ah, k_Ah, Bh, v0_Bh, k_Bh
 }
  
 INDEPENDENT {t FROM 0 TO 1 WITH 1 (ms)}

@@ -14,14 +14,15 @@ NEURON {
  	SUFFIX potassium
 	USEION k WRITE ik
 	RANGE gkbar, gk, ninf, n, ik, ntau
+	: RANGE ek
 }
  
 INDEPENDENT {t FROM 0 TO 1 WITH 1 (ms)}
  
 PARAMETER {
-	ek	  = -77	(mV)    : CHECK
-	gkbar = 0.036 (mho/cm2) : 
-	
+	gkbar = 0.036 (mho/cm2)
+	ek	  = -77	(mV)
+
 	: HH params
     
     An = 0.01
